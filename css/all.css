@@ -1,0 +1,271 @@
+
+
+* {margin: 0px; padding: 0px;}
+
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+    background-color:#cce8cf;	
+}
+
+.container {
+	
+	margin:0px auto;
+	height: 465px;
+	width: 931px;
+	font-size: 1.2em;
+	
+	
+}
+
+.header {
+	height: 205px;
+	padding-top: 10px;
+	margin-left: 365px;
+}
+ .j{float:left;
+	width:300px;
+	
+}
+
+.header_left {
+	float: left;
+	width: 326px;
+	height: 206px;
+}
+
+.header_right {
+    height: 206px;
+	margin-left: 330px;
+	margin-right: 20px;
+}
+
+.left {
+	float:left;
+	width: 225px;
+	margin-left: 45px;
+	margin-top: 55px;
+	margin-right:3px;
+}
+
+
+
+
+.footer {
+	clear: both;
+	margin-left: 340px;
+	margin-right: 50px;
+	margin-top: 40px;
+	padding: 20px;
+	text-align: center;
+	border-top: 1px dotted #CCCCCC;
+	
+}
+.right,.r1,.r2,.r3{
+	margin-left: 340px;
+	margin-top: 70px;
+	margin-right: 50px;
+	color:#666;
+	line-height: 1.5em;
+	font-size: 14px;
+	display:none;
+	height:850px;
+}
+.r1 embed{
+	margin:0px;
+	padding:0px;
+}
+.r1 article{
+	
+	margin:3px;
+	height:400px;
+	
+}
+.r3{
+	background:url(../img/rbg.png) bottom right no-repeat;
+	
+}
+.r1 img,.r2 img ,.r3 img{
+	border-radius: 100%;
+	width:300px;
+}
+p {margin-bottom: 15px;
+   margin-top: 15px;
+}
+
+
+h1 {
+	color: #87a448;
+	margin-top: 85px;
+	margin-left: 40px;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 2.6em;
+}
+h2 {
+	color: #bf8a44;
+	margin-left: 120px;
+	font-size: 1.6em;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+h3 {
+	height: 31px;
+	background-color: #FFFFFF;
+	padding-top: 20px;
+	padding-left: 75px;
+	font-size: 1.6em;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	color: #84A54A;
+	border-bottom: 1px dotted #CCCCCC;
+}
+
+h4 {
+	width: 210px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+	padding: 5px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-top-color: #CEAC86;
+	border-bottom-color: #CEAC86;
+	font-size: 1.2em;
+	color: #A6BB7A;
+}
+
+
+
+
+img {border: none;}
+.m{
+	float:right;
+	margin-top:0px;
+}
+
+.float_left {float: left;
+              margin-right: 10px;}
+			  
+.float_right {float: right;
+              margin-left: 10px;}
+			 
+a:link {color: #557C2B; text-decoration: none;}     
+a:visited {color: #83A956; text-decoration: none;}  
+a:hover {color: #821115; text-decoration: none;}   
+a:active {color: #577E2D; text-decoration: none;}  
+
+
+
+
+.navcontainer ul
+{
+	list-style-type: none;
+	font-weight: bold;
+	color: #990000;
+	
+}
+
+.navcontainer a
+{
+	display: block;
+	padding-top: 17px;
+	padding-left: 37px;
+	width: 182px;
+	
+	border-bottom: 1px solid #eee;
+	background-repeat: repeat-x;
+	height: 27px;
+}
+
+
+.navcontainer a:link, #navlist a:visited
+{
+color: #93B26E;
+text-decoration: none;
+}
+
+.navcontainer a:hover 
+{	
+	background: url(../img/menu.png) 0 -45px;
+	color: #562930;
+}
+
+
+
+
+form {
+	margin-top: 15px;
+	margin-left: 35px;
+}
+
+input.fields {display: block;
+        width: 140px;
+        background: url(../img/input_bg.png);
+		border-top: 1px solid #E3E4E9;
+		border-left: 1px solid #E3E4E9;
+		border-bottom: 1px solid white;
+		border-right: 1px solid white;
+		margin-top: 3px;
+	    margin-bottom: 3px;}
+
+label {
+	color: #87a458;
+	font-weight:bold;
+	
+}
+
+.submit_button {
+	margin-top: 15px;
+	padding: 2px;
+	
+	float: right;
+	margin-right: 40px;
+	border-top: 2px solid white;
+	border-left: 2px solid white;
+	border-bottom: 2px solid #E3E4E9;
+	border-right: 2px solid #E3E4E9;
+}
+
+
+form.contact_us {
+	width: 190px;
+	margin-top: 15px;
+	margin-left: 0px;
+	padding: 15px;
+	background-color: #FBF9F4;
+	background-image: url(../img/form_bg.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+input.fields_contact_us {display: block;
+        width: 185px;
+        background: url(../img/input_bg.png);
+		border-top: 1px solid #E3E4E9;
+		border-left: 1px solid #E3E4E9;
+		border-bottom: 1px solid white;
+		border-right: 1px solid white;
+		margin-top: 3px;
+	    margin-bottom: 3px;
+	    border-radius: 10%;}
+	  
+
+textarea {width: 185px;
+          background: url(../img/input_bg.png);
+          border-top: 1px solid #E3E4E9;
+		  border-left: 1px solid #E3E4E9;
+		  border-bottom: 1px solid white;
+		  border-right: 1px solid white;
+          border-radius: 20;          
+          margin-top: 3px;}
+
+.submit_button_contact {
+	margin-top: 15px;
+	padding: 2px;
+	background-color: #EAF4D9;
+}
